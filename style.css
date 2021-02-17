@@ -1,0 +1,42 @@
+html,
+body {
+	/* cursor: none; */
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	overflow: hidden;
+	background-color: black;
+}
+
+#myCanvas {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 75px;
+}
+
+h2 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+	font-family: "Courier New", Courier, monospace;
+	display: inline-block;
+}
+
+button {
+	display: inline-block;
+	margin: 20px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	background-color: gray;
+}
