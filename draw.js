@@ -88,6 +88,7 @@ function draw() {
 		stroke(0, 0, 255, 100);
 		strokeWeight(10);
 		walls[walls.length - 1].b = createVector(mouseX, mouseY);
+		walls[walls.length - 1].w = 15;
 	}
 
 	usingMouse ? noCursor() : cursor(CROSS);
