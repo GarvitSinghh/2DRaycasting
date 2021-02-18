@@ -27,21 +27,29 @@ function setup() {
 function mouseClicked() {
 	if (!usingMouse) {
 		if (drawing) {
-			walls.push(
-				new Boundary(
-					mouseX,
-					mouseY,
-					currX,
-					currY,
-					color(255, 255, 255),
-					10
-				)
+			walls[walls.length - 1] = new Boundary(
+				mouseX,
+				mouseY,
+				currX,
+				currY,
+				color(255, 255, 255),
+				10
 			);
 			drawing = false;
 		} else {
 			drawing = true;
 			currX = mouseX;
 			currY = mouseY;
+			walls.push(
+				new Boundary(
+					currX,
+					currY,
+					mouseX,
+					mouseY,
+					color(255, 255, 255, 50),
+					10
+				)
+			);
 		}
 	}
 }
@@ -79,7 +87,7 @@ function draw() {
 	if (drawing) {
 		stroke(0, 0, 255, 100);
 		strokeWeight(10);
-		line(currX, currY, mouseX, mouseY);
+		walls[walls.length - 1].b = createVector(mouseX, mouseY);
 	}
 
 	usingMouse ? noCursor() : cursor(CROSS);
