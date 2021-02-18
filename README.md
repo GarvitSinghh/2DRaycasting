@@ -4,7 +4,7 @@
 
 Made it more User Interactive and added more features like Colorful rendering and The ability to draw walls.
 
-### View it on [Netlify](https://naughty-davinci-b61cd7.netlify.app/) or [Github Pages](https://natsudragneel-x.github.io/2DRaycasting/draw.html)
+### View it on [Netlify](https://rays2d.netlify.app/) or [Github Pages](https://natsudragneel-x.github.io/2DRaycasting/draw.html)
 
 <hr>
 
