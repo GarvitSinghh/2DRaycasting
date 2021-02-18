@@ -4,17 +4,21 @@
 
 Made it more User Interactive and added more features like Colorful rendering and The ability to draw walls.
 
+### View it on [Netlify](https://naughty-davinci-b61cd7.netlify.app/) or [Github Pages](https://natsudragneel-x.github.io/2DRaycasting/draw.html)
+
+<hr>
+
 ### Controls:
 
-P - Pause
+**P** - Pause
 
-Spacebar - Switch between Mouse Guided and Random Movement
+**Spacebar** - Switch between Mouse Guided and Random Movement
 
-Scroll - Increase and Decrease Ray Alpha
+**Scroll** - Increase and Decrease Ray Alpha
 
-Click - Hide/Show Cursor
+**Click** - Hide/Show Cursor **OR** Draw Boundaries
 
-C - Cast/Uncast
+**C** - Cast/Uncast
 
 <hr>
 
