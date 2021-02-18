@@ -1,3 +1,7 @@
+* {
+	font-size: 1.7vw;
+}
+
 html,
 body {
 	/* cursor: none; */
@@ -9,28 +13,30 @@ body {
 }
 
 #myCanvas {
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 75px;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	margin-bottom: 0.7vh;
 }
 
 h2 {
 	color: white;
-	font-size: 25px;
-	margin-left: 20px;
+	margin-left: 1vw;
 	font-family: "Courier New", Courier, monospace;
 	display: inline-block;
 }
 
+a {
+	margin: 1vw;
+}
+
 button {
 	display: inline-block;
-	margin: 20px;
+	/* margin: 20px; */
 	font-family: "Courier New", Courier, monospace;
 	font-weight: bolder;
-	font-size: 20px;
 	border: none;
 	border-radius: 5px;
-	padding: 10px 30px 10px 30px;
+	padding: 1vw 3vw 1vw 3vw;
 }
 
 button:focus {
